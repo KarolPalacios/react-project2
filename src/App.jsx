@@ -41,10 +41,10 @@ function App() {
           <h3>{weather.weather?.[0].description}</h3>
 
             <p>
-              <i className="fa-solid fa-wind"></i> Wind speed {weather.wind.speed}m/s 
+              <i className="fa-solid fa-wind"></i> Wind speed {weather.wind?.speed}m/s 
             </p>
             <p>
-            <i className="fa-solid fa-cloud"></i> Clouds {weather.clouds.all}%
+            <i className="fa-solid fa-cloud"></i> Clouds {weather.clouds?.all}%
             </p>
 
         </div>
