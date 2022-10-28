@@ -1,0 +1,56 @@
+body{
+  margin: 0;
+}
+
+* {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+
+
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.card{
+  background-color: #e0b1cb;
+  box-shadow: 3px 4px 10px grey;
+  border-radius: 1.5rem;
+  padding: 2rem;
+}
+
+h1{
+  color: #240046;
+}
+
+.temp img{
+  width: 10rem;
+}
+
+.weather{
+  display: flex;
+  gap: 2rem;
+
+}
+
+
+button{
+  width: 9rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: #6d6875;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
